@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bac1"
+    tools:context="com.apps.nutribot.Register">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="150dp"
+                android:layout_height="130dp"
+                android:layout_margin="30dp"
+                android:src="@drawable/icon"
+                android:layout_gravity="center"/>
+
+            <EditText
+                android:id="@+id/editText_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/text_green"
+                android:textColorHint="@color/text_green"
+                android:background="@color/black"
+                android:padding="10dp"
+                android:hint="Full Name"/>
+
+            <EditText
+                android:id="@+id/editText_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/text_green"
+                android:textColorHint="@color/text_green"
+                android:background="@color/black"
+                android:padding="10dp"
+                android:hint="User Name"/>
+
+            <EditText
+                android:id="@+id/editText_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/text_green"
+                android:textColorHint="@color/text_green"
+                android:background="@color/black"
+                android:padding="10dp"
+                android:hint="Email"/>
+
+            <EditText
+                android:id="@+id/editText_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/text_green"
+                android:textColorHint="@color/text_green"
+                android:background="@color/black"
+                android:padding="10dp"
+                android:hint="Password"/>
+
+            <EditText
+                android:id="@+id/editText_contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/text_green"
+                android:textColorHint="@color/text_green"
+                android:background="@color/black"
+                android:padding="10dp"
+                android:hint="Contact Number"/>
+
+            <Button
+                android:id="@+id/button_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="Submit"
+                android:textColor="@color/colorRed"
+                android:padding="10dp"
+                android:background="@drawable/bg_btn_green"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

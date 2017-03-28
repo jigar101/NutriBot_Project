@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bac1"
+    tools:context="com.apps.nutribot.MainActivity">
+
+      <RelativeLayout android:layout_height="120dp"
+          android:layout_width="match_parent"
+          android:layout_marginBottom="78dp"
+          android:layout_above="@+id/relativeLayout3"
+          android:layout_alignParentRight="true"
+          android:layout_alignParentEnd="true">
+
+          <ImageView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              app:srcCompat="@drawable/icon"
+              android:id="@+id/imageView7"
+              android:layout_below="@+id/imageView8"
+              android:layout_centerHorizontal="true" />
+
+      </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="78dp"
+        android:layout_above="@+id/relativeLayout2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <Button
+            android:id="@+id/button_dietplan"
+            android:layout_width="130dp"
+            android:layout_height="110dp"
+            android:background="@drawable/health_btn"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="29dp"
+            android:layout_marginStart="29dp" />
+
+        <Button
+            android:id="@+id/button_dietcalc"
+            android:layout_width="130dp"
+            android:layout_height="110dp"
+            android:background="@drawable/round_bmi"
+            android:layout_marginRight="36dp"
+            android:layout_marginEnd="36dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="67dp"
+        android:id="@+id/relativeLayout2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:id="@+id/button_calcalc"
+            android:layout_width="130dp"
+            android:layout_height="110dp"
+            android:background="@drawable/bhadvo"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="35dp"
+            android:layout_marginEnd="35dp" />
+
+        <Button
+            android:id="@+id/button_fitness"
+            android:layout_width="130dp"
+            android:layout_height="110dp"
+            android:background="@drawable/round_fitness"
+            android:layout_marginLeft="32dp"
+            android:layout_marginStart="32dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
